@@ -126,7 +126,9 @@ select {
 
 .arrow {
   position: absolute;
-  top: 30%;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
   display: grid;
   grid-template-columns: 1fr;
 }
