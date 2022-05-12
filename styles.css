@@ -214,9 +214,11 @@ input[type="checkbox"]:checked {
 .color-white {
   background-color: var(--color-warning);
   opacity: 0;
+  transition: all 400ms;
 }
 
 .color-black {
   background-color: var(--color-dark);
   opacity: 0;
+  transition: all 400ms;
 }
